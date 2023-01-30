@@ -11,12 +11,11 @@ call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline' " Bottom line status
 Plug 'https://github.com/neoclide/coc.nvim' " Cool thing for autocomplition
-Plug 'https://github.com/neoclide/coc-pairs' " Autopair {} () etc.
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Set of cool colorscemes
 Plug 'https://github.com/ryanoasis/vim-devicons' " Cool icons
 Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
-"Plug 'https://github.com/windwp/nvim-autopairs'
-"Plug 'https://github.com/tc50cal/vim-terminal'
+"Plug 'https://github.com/windwp/nvim-autopairs' " now I using coc-pairs
+"Plug 'https://github.com/tc50cal/vim-terminal' " there is built-in
 
 call plug#end()
 
