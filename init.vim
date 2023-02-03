@@ -7,6 +7,8 @@
 :set softtabstop=4
 :set mouse=a
 
+language en_US
+
 call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline' " Bottom line status
@@ -23,7 +25,7 @@ Plug 'https://github.com/EdenEast/nightfox.nvim' " cool theme
 
 call plug#end()
 
-:colorscheme abstract
+:colorscheme nightfox
 
 "===========================COC Settings=============================="
 
