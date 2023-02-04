@@ -7,7 +7,9 @@
 :set softtabstop=4
 :set mouse=a
 
+" Only Windows
 language en_US
+:let &shell = '"C:\WINDOWS\system32\cmd.exe"' " bash shell fix (bash.exe dont work)
 
 call plug#begin()
 
