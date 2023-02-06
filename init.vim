@@ -1,3 +1,9 @@
+"Comands for Coc-nvim
+":CocInstall coc-clangd
+":CocInstall coc-json
+":CocInstall coc-pairs
+":CocInstall coc-snippets
+
 :set number
 :set relativenumber
 :set autoindent
