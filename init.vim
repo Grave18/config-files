@@ -15,7 +15,7 @@
 
 " Only Windows
 language en_US
-:let &shell = '"C:\WINDOWS\system32\cmd.exe"' " bash shell fix (bash.exe dont work)
+:let &shell = '"C:/WINDOWS/system32/cmd.exe"' " bash shell fix (bash.exe dont work)
 
 call plug#begin()
 
@@ -35,6 +35,16 @@ call plug#end()
 
 :colorscheme nightfox
 :set nowrap " disablse text wrapping
+
+"=========================Caustom_Shortcuts==========================="
+" Move lines
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+
 
 "===========================COC Settings=============================="
 
