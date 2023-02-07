@@ -1,9 +1,3 @@
-"Comands for Coc-nvim
-":CocInstall coc-clangd
-":CocInstall coc-json
-":CocInstall coc-pairs
-":CocInstall coc-snippets
-
 :set number
 :set relativenumber
 :set autoindent
@@ -47,6 +41,11 @@ vnoremap <A-k> :m '<-2<CR>gv=gv
 
 
 "===========================COC Settings=============================="
+"Comands for Coc-nvim
+":CocInstall coc-clangd
+":CocInstall coc-json
+":CocInstall coc-pairs
+":CocInstall coc-snippets
 
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
