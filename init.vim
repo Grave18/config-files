@@ -34,6 +34,7 @@ Plug 'https://github.com/EdenEast/nightfox.nvim' " cool theme
 call plug#end()
 
 :colorscheme nightfox
+:set nowrap " disablse text wrapping
 
 "===========================COC Settings=============================="
 
