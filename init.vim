@@ -15,7 +15,7 @@ call plug#begin()
 
 Plug 'https://github.com/vim-airline/vim-airline' " Bottom line status
 Plug 'https://github.com/ryanoasis/vim-devicons' " Cool icons
-Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple cursors
+Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor Ctrl n, Alt arrows
 
 Plug 'https://github.com/neoclide/coc.nvim' " Cool thing for autocomplition
 
@@ -30,7 +30,7 @@ call plug#end()
 :colorscheme nightfox
 :set nowrap " disablse text wrapping
 
-"=========================Caustom_Shortcuts==========================="
+"=========================Custom_Shortcuts==========================="
 " Move lines
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>==
