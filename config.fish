@@ -2,10 +2,9 @@ if status is-interactive
     set unityPath2022 "/c/Programs/Unity/2022.3.17f1/Editor"
     set unityPath2021 "/c/Programs/Unity/2021.3.28f1/Editor"
     set gitPath "/c/Programs/Git/mingw64/bin/"
-	set defaultEditor "nvim"
-
-	alias fco="$defaultEditor ~/.config/fish/config.fish"
-	alias fr=". ~/.config/fish/config.fish"
+    set defaultEditor "nvim"
+    alias fco="$defaultEditor ~/.config/fish/config.fish"
+    alias fr=". ~/.config/fish/config.fish"
 
     alias open="explorer"
     # Git
