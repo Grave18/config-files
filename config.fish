@@ -1,4 +1,8 @@
 if status is-interactive
+
+    # Fish settings
+    fish_config prompt choose informative_vcs
+
     set unityPath2022 "/c/Programs/Unity/2022.3.17f1/Editor"
     set unityPath2021 "/c/Programs/Unity/2021.3.28f1/Editor"
     set gitPath "/c/Programs/Git/mingw64/bin/"
@@ -31,7 +35,7 @@ if status is-interactive
     alias ush22="unity2022 -projectPath . &>/dev/null"
 
     # Oh-my-posh
-    oh-my-posh init fish --config /ucrt64/share/oh-my-posh/themes/capr4n-new.omp.json | source
+    #oh-my-posh init fish --config /ucrt64/share/oh-my-posh/themes/capr4n-new.omp.json | source
 end
 
 
