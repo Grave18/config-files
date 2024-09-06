@@ -27,7 +27,7 @@ if status is-interactive
     # Unity
     alias unity2021="$unityPath2021/Unity.exe"
     alias unity2022="$unityPath2022/Unity.exe"
-    alias ush21="unity2021 -projectPath . -username grave63@gmail.com -password 79uksRHsWTn3FV2  &>/dev/null"
+    alias ush21="unity2021 -projectPath . &>/dev/null"
     alias ush22="unity2022 -projectPath . &>/dev/null"
 
     # Oh-my-posh
