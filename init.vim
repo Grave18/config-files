@@ -1,3 +1,11 @@
+" :echo stdpath("config") - command to find config path
+" :Lexplore - open treerw file explorer
+" :CocInstall coc-clangd - how to install servers in coc
+
+" Instalation:
+" - nodejs
+" - vimplug
+
 :set number
 :set relativenumber
 :set autoindent
@@ -9,7 +17,8 @@
 
 " Only Windows
 language en_US
-:let &shell = '"C:\WINDOWS\system32\cmd.exe"' " bash shell fix (bash.exe dont work)
+":let &shell = '"C:\WINDOWS\system32\cmd.exe"' " bash shell fix (bash.exe dont work)
+":let g:coc_node_path = 'D:\prog\scoop\apps\nodejs\23.3.0'
 
 call plug#begin()
 
@@ -17,7 +26,7 @@ Plug 'https://github.com/vim-airline/vim-airline' " Bottom line status
 Plug 'https://github.com/ryanoasis/vim-devicons' " Cool icons
 Plug 'mg979/vim-visual-multi', {'branch': 'master'} " multicursor Ctrl n, Alt arrows
 
-Plug 'https://github.com/neoclide/coc.nvim' " Cool thing for autocomplition
+Plug 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'npm ci' } " Cool thing for autocomplition
 
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Set of cool colorscemes
 Plug 'https://github.com/EdenEast/nightfox.nvim' " cool theme
